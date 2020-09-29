@@ -19,3 +19,25 @@ Enter a number: 48
 """
 
 #! python3
+
+a = input("Enter a number: ")
+a = float(a)
+
+a1 = a/6
+a2 = int(a1)
+
+
+b1 = a/8
+b2 = int(b1)
+
+
+if (a1 - a2) == 0 and (b1 - b2) != 0:
+    print(a ,end="")
+    print(" is frue")
+else:
+    print(a ,end="")
+    print(" is not frue")
+
+
+
+
