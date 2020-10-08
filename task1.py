@@ -16,7 +16,7 @@ That is within normal Earth orbit.
 That is not within normal Earth orbit.
 """
 print("Enter a number")
-a = input()
+a = input().strip()
 a = float(a)
 
 if a >= 0.9759 and a <= 1.016:
