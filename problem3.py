@@ -71,7 +71,7 @@ elif c>a>b:
 
 elif c>b>a:
     if (c**2)==(b**2)+(a**2):
-        print(c1+","+b1+","+a1+" form a Pythagorean triple")
+        print(a1+","+b1+","+c1+" form a Pythagorean triple")
 
     elif (c**2)!=(b**2)+(a**2):
-        print(c1+","+b1+","+a1+" do not form a Pythagorean triple")
+        print(a1+","+b1+","+c1+" do not form a Pythagorean triple")
