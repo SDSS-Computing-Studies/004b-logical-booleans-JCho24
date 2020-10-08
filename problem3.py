@@ -36,38 +36,38 @@ c1 = str(c)
 
 if a>b>c:
     if (a**2)==(b**2)+(c**2):
-        print(a1+","+b1+","+c1+" form a Pythagorean triple")
+        print(c1+","+b1+","+a1+" form a Pythagorean triple")
 
     elif (a**2)!=(b**2)+(c**2):
-        print(a1+","+b1+","+c1+" do not form a Pythagorean triple")
+        print(c1+","+b1+","+a1+" do not form a Pythagorean triple")
         
 elif a>c>b:
     if (a**2)==(b**2)+(c**2):
-         print(a1+","+c1+","+b1+" form a Pythagorean triple")
+         print(b1+","+c1+","+a1+" form a Pythagorean triple")
 
     elif (a**2)!=(b**2)+(c**2):
-        print(a1+","+c1+","+b1+" do not form a Pythagorean triple")
+        print(b1+","+c1+","+a1+" do not form a Pythagorean triple")
 
 elif b>a>c:
     if (b**2)==(a**2)+(c**2):
-        print(b1+","+a1+","+c1+" form a Pythagorean triple")
+        print(c1+","+a1+","+b1+" form a Pythagorean triple")
 
     elif (b**2)!=(a**2)+(c**2):
-        print(b1+","+a1+","+c1+" do not form a Pythagorean triple")
+        print(c1+","+a1+","+b1+" do not form a Pythagorean triple")
 
 elif b>c>a:
     if (b**2)==(a**2)+(c**2):
-        print(b1+","+c1+","+a1+" form a Pythagorean triple")
+        print(a1+","+c1+","+b1+" form a Pythagorean triple")
 
     elif (b**2)!=(a**2)+(c**2):
-        print(b1+","+c1+","+a1+" do not form a Pythagorean triple")
+        print(a1+","+c1+","+b1+" do not form a Pythagorean triple")
         
 elif c>a>b:
     if (c**2)==(b**2)+(a**2):
-        print(c1+","+a1+","+b1+" form a Pythagorean triple")
+        print(b1+","+a1+","+c1+" form a Pythagorean triple")
 
     elif (c**2)!=(b**2)+(a**2):
-        print(c1+","+a1+","+b1+" do not form a Pythagorean triple")
+        print(b1+","+a1+","+c1+" do not form a Pythagorean triple")
 
 elif c>b>a:
     if (c**2)==(b**2)+(a**2):
